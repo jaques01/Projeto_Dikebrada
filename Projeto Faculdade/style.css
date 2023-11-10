@@ -196,7 +196,7 @@ footer{
     display: flex;
     gap: 5rem;
     justify-content: space-around;
-    background-color: #111;
+    /* background-color: #111; */
     padding: 8rem;
     margin-top: 5rem;
     display: grid;
