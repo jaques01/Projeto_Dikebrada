@@ -6,38 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="js/bannerRotativo.js" defer></script>
+    <script src="js/modal.js" defer></script>
     <title>DiKebrada</title>
 </head>
 
 <body>
-
-    <div class="background">
-        <header>
-            <!-- area das redes sociais -->
-            <div id="container-redes-sociais">
-                <img src="./img/Facebook.png" alt="facebook">
-                <img src="./img/Instagram.png" alt="instagram">
-                <img src="./img/WhatsApp.png" alt="WhatsApp">
+    <header>
+        <!-- area das redes sociais -->
+        <div id="container-redes-sociais">
+            <img src="./img/Facebook.png" alt="facebook">
+            <img src="./img/Instagram.png" alt="instagram">
+            <img src="./img/WhatsApp.png" alt="WhatsApp">
+        </div>
+        <div id="container-pesquisa-logo">
+            <div class="pesquisa">
+                <input type="text" placeholder="PESQUISE AQUI"/>
+                <img src="img/Search.png" alt="lupa de pesquisa">
             </div>
-            <div id="container-pesquisa-logo">
-                <div class="pesquisa">
-                    <input type="text" placeholder="PESQUISE AQUI"/>
-                    <img src="img/Search.png" alt="lupa de pesquisa">
-                </div>
-            
-                <!--logo-->
-                <div class="logo"></div>
-                <!-- area login e favorito -->
-                <div id="container-login-favorito">
-                    <img src="img/UserOutline.png" alt="icon login">
-                    <p style= "margin-left:-30px">LOGIN</p>
-                    <img src="img/ChevronDownOutline.png" alt="" style= "margin-left:-30px">
-                    <img src="img/Vector.png" alt="icon vetor">
-                </div>
+        
+            <!--logo-->
+            <div class="logo"></div>
+            <!-- area login e favorito -->
+            <div id="container-login-favorito">
+                <img src="img/UserOutline.png" alt="icon login">
+                <p style= "margin-left:-30px">LOGIN</p>
+                <img src="img/ChevronDownOutline.png" alt="" style= "margin-left:-30px">
+                <img src="img/Vector.png" alt="icon vetor">
             </div>
-            
-        </header>
-         <!-- menu -->
+        </div>
+        
+    </header>
+     <!-- menu -->
          <nav>
             <ul class="nav-list">
               <li><a href="#">CAMISETAS</a></li>
@@ -54,11 +53,21 @@
       </div>
 
       <div id="contaniner-ofertas">
-        
+        <img src="img/parcelar.png" alt="parcelar"/>
+        <img src="img/desconto.png" alt="desconto"/>
+        <img src="img/receba_mesmo_dia.png" alt="receba"/>
       </div>
-
-  </div><!--background-->
-
+      <!-- area carrinho -->
+      <div id="carrinho">
+        <img id="img-carrinho" src="img/shopping-cart.png" alt="carrinho">
+      </div>
+      <div id="fade" class="hide"></div>
+      <div id="modal-carrinho" class="hide">
+        <div class="item-carrinho"></div>
+        <div class="item-carrinho"></div>
+        <div class="item-carrinho"></div>
+      </div>
+      <!-- fim area carrinho -->
   <footer>
 
     <div class="meio-contato">
@@ -86,13 +95,14 @@
         <h3>teste </h3>
     </div>
 
+
+
+
 </footer>
 
 <div class="last-text">
     <p>Copyright © 2022 All rights reserved DiKebrada</p>
 </div>
-
-
-
 </body>
+
 </html>
