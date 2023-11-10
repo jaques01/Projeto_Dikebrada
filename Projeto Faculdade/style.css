@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Inicio da Pagino */
+:root{
+    --cor-principal: #FFFEFE;
+    --cor-secundaria: #0B0B0B;
+    --cor-terciaria: #F4F3F3;
+    }
+
+
+.background{
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    /* background-color: #c8815f; */
+}
+
+header{
+    display: flex;
+    /* justify-content: space-around; */
+    /* padding-top: 1rem; */
+    flex-direction: column;
+    /* text-align: center; */
+    width: 100%;
+    height: 200px;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    /* position: fixed; */
+    background: transparent;
+    /* transition: all .35s ease; */
+    background-color: var(--cor-principal);
+    /* padding: 14px 14%; */
+}
+
+#container-redes-sociais{
+    height: 39px;
+    width: 100%;
+    border-bottom: 1px solid #E4E0E0;
+    padding: 0 5% 0 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#container-redes-sociais > img{
+    margin-right: 20px;
+}
+
+#container-pesquisa-logo{
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container-pesquisa-logo > img{
+    border: 1px solid #000;
+}
+
+.pesquisa{
+    width: 403px;
+    height: 40.85px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    align-items: center;
+    display: inline-flex;
+    
+}
+
+.pesquisa>input{
+    height: 39px;
+    width: 360px;
+    -webkit-appearance: none;
+    border: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.pesquisa>img{
+    height: 25px;
+    width: 25px;
+    margin-left: 4px;
+}
+
+.logo{
+    height: 80px;
+    width: 266px;
+    background: url(./img/LOGO.png) no-repeat center center;
+    background-size: cover;
+
+}
+
+@media only screen and (max-width:800px) {
+    .pesquisa{
+        width: 250px;
+        margin-left: 40px;
+    }
+}
+
+#container-login-favorito{
+    width: 268px;
+    height: 56.88px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* MENU */
+
+nav{
+    height: 58px;
+    width: 100%;
+    background-color: var(--cor-secundaria);
+    padding: 0 80px 0 80px ;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav > ul > li{
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 58px;
+    padding: 20px;
+}
+
+nav > ul > li> a{
+    color: #FFF2F2;
+}
+
+nav > ul > li:hover{
+    cursor: pointer;
+    border-bottom: 3px solid var(--cor-principal);
+    text-shadow: 0.1em 0.1em 0.2em rgb(198, 197, 197)
+}
+
+/* BANNER */
+#banner {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+#banner img{
+    opacity: 0;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit:fill;
+
+    transition: opacity 800ms;
+}
+
+#banner img.selected { 
+    opacity: 1;
+}
+
+#contaniner-ofertas {
+    height: 300px;
+    width: 100%;
+    background-color: var(--cor-principal);
+    
+    display: flex;
+}
+
+
+/* fim do banner */
+footer{
+    display: flex;
+    gap: 5rem;
+    justify-content: space-around;
+    background-color: #111;
+    padding: 8rem;
+    margin-top: 5rem;
+    display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+}
+
+.meio-contato h3{
+    color: red;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: red;
+}
+
+.meio-contato li{
+    margin-bottom: 15px;
+}
+
+.meio-contato li a{
+    display: block;
+    color: red;
+    font-weight: 600;
+    transition: all .35s ease;
+}
+
+/* Barra do Copyright em Cinza */
+.last-text{
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+} 
+
