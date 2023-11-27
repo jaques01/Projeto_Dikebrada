@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!-- 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DiKebrada - Calças</title>
+</head>
+ -->
+<body>
+
+    <header>
+        <!-- criação de cabeçalho
+    </header>
+
+    <section class="product-section">
+        <div class="product">
+            <img src="calca.jpg" alt="Calça">
+            <h3>Calça Jeans Premium</h3>
+            <p>Confortável e estilosa para todas as ocasiões.</p>
+            <p class="price">R$ 89,99</p>
+            <button onclick="addToCart('Calça Jeans Premium', 89.99)">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+-->
+
+
+    <!-- Seções adicionais e rodapé aqui -->
+
+    <script src="script.js" defer></script>
+</body>
+
+</html> 
+
+
+/* exemplo de style para a aba calça 
+
+.product-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.product {
+    text-align: center;
+    margin: 10px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+*/
